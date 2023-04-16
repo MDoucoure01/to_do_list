@@ -140,9 +140,14 @@ input{
     margin-left: 2.5%;
     font-size: 1.7rem;
     width: 95%;
-    height: 8%;
+    height: 5rem;
     background-color: whitesmoke;
     box-shadow: 8px 8px 22px -21px rgba(66, 68, 90, 1);
+    cursor: pointer;
+}
+.Ajout:hover{
+    color: white;
+    background: linear-gradient(90deg, rgba(87,87,101,1) 10%, rgba(30,100,113,1) 100%);
 }
 .text{
     justify-content: space-around;
@@ -151,7 +156,7 @@ input{
 .taches{
     overflow: scroll;
     width: 100%;
-    height: 72.8%;
+    height: 63.8%;
     margin-top: 2%;
 }
 .tache{
@@ -218,8 +223,13 @@ textarea{
     margin-top: 10%;
 }
 .bloc_ajout{
+    margin-top: .2%;
     justify-content: space-between;
 }
 .bloc{
     width: 13%;justify-content: space-between;
+}
+.gestion_ajout{
+    width: 100%;
+    height: auto;
 }
