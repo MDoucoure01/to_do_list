@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contener dflex">
+        <div class="Gauche dflex aic fdc">
+            <h1 class="todo">Todo List</h1>
+            <div class="Les_point dflex fdc">
+                <div class="dflex hov">
+                    <span class="fas fa-sun"></span>
+                    <div class="pad">Ma Journée</div>
+                </div>
+                <div class="dflex hov">
+                    <span class="fa fa-heart"></span>
+                    <div class="pad">Important</div>
+                </div>
+                <div class="dflex hov">
+                    <span class="fa fa-tasks"></span>
+                    <div class="pad">Plannifiées</div>
+                </div>
+                <div class="dflex hov">
+                    <span class="fa fa-home"></span>
+                    <div class="pad">Taches</div>
+                </div>
+            </div>
+            <select name="selection" id="btn_select">
+                <option value="">Choisir un Couleur</option>
+            </select>
+            <div class="Les_couleur dflex aic jcc">
+                <div class="couleur col color1"></div>
+                <div class="couleur col color2"></div>
+                <div class="couleur col color3"></div>
+                <div class="couleur col color4"></div>
+                <div class="couleur col color5"></div>
+                <div class="couleur col color6"></div>
+            </div>
+        </div>
+        <div class="Milieu">
+            <div class="nav_Milieu dflex">
+                <div class="nav_cote dflex aic jcc">
+                    <span class="fas fa-sun"></span>
+                    <div class="pad">Ma Journée</div>
+                </div>
+                <input type="text" class="input_search" placeholder="Recherche une tache">
+            </div>
+            <div class="trait"></div>
+            <div class="trie dflex aic">
+                <span class="fa fa-exchange"></span>
+                <div>Trier</div>
+            </div>
+            <div class="Ajout dflex aic">
+                <div class="dflex aic text">
+                    <span class="fa fa-plus"></span>
+                    <div>Ajouter une Nouvelle Taches</div>
+                </div>
+            </div>
+
+            <!-- <div class="Ajout dflex aic bloc_ajout">
+                <div class="bloc dflex aic">
+                    <span class="fa fa-tasks"></span>
+                    <span class="fa fa-bell"></span>
+                    <span class="fa fa-refresh"></span>
+                </div>
+                <div class="ajouter">Ajouter <span class="fa fa-plus"></span></div>
+            </div> -->
+
+
+
+            <div class="taches dflex fdc">
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tache dflex aic">
+                    <span class="fa fa-circle"></span>
+                    <div class="objet dflex fdc">
+                        <h3>Gestion de projet des etudiant</h3>
+                        <div class="dflex task">
+                            <h3>Taches</h3>
+                            <span>.</span>
+                            <span>0 sur 4</span>
+                            <span class="fa fa-tasks"></span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="droite">
+            <div class="dflex plans aic">
+                <div class="dflex plan">
+                    <span class="fa fa-circle"></span>
+                    <div>Projet Planning</div>
+                </div>
+                <span class="fa fa-heart"></span>
+            </div>
+            <div class="Zone_saisie dflex aic">
+                <span class="fa fa-circle"></span>
+                <textarea name="zone" id="" cols="30" rows="10" class="zone_hov">Etape 1 : Saisie planning</textarea>
+                <span class="fa fa-times"></span>
+            </div>
+            <div class="Zone_saisie dflex aic">
+                <span class="fa fa-circle"></span>
+                <textarea name="zone" id="" cols="30" rows="10" class="zone_hov">Etape 2 : Saisie planning</textarea>
+                <span class="fa fa-times"></span>
+            </div>
+            <div class="Zone_saisie dflex aic">
+                <span class="fa fa-circle"></span>
+                <textarea name="zone" id="" cols="30" rows="10" class="zone_hov">Etape 3 : Saisie planning</textarea>
+                <span class="fa fa-times"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

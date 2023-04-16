@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --night-blue: #2B5878;
+    --ligth-gray: #ccc;
+    --gray: #414141;
+    --black: #141414;
+}
+.fdc{
+    flex-direction: column;
+}
+.dflex{
+    display: flex;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.contener{
+    height: 100vh;
+}
+.Gauche{
+    border-right: 1px solid rgb(195, 194, 194);
+    -webkit-box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);
+    background-color: whitesmoke;
+    width: 20%;
+    height: auto;
+    padding: 2em 0;
+}
+.pad{
+    padding: 0rem 10%;
+}
+.Les_point{
+    width: 70%;
+    height: 35%;
+    font-size: 1.5em;
+    justify-content: space-around;
+}
+select{
+    border: none;
+    width: 100%;
+    height: 5%;
+}
+.todo,.nav_cote{
+    color: var(--night-blue);
+}
+.hov:hover{
+    font-size: 1.55em;
+    color: var(--night-blue);
+    cursor: pointer;
+}
+.Les_couleur{
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 100%;
+    height: 6%;
+    background-color: white;
+    justify-content: space-around;
+    -webkit-box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);
+}
+.couleur{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.color1{
+    background-color: var(--black);
+}
+.color2{
+    background-color: var(--gray);
+}
+.color3{
+    background-color: greenyellow;
+}
+.color4{
+    background-color: var(--night-blue);
+}
+.color5{
+    background-color: yellow;
+}
+.color6{
+    background-color: aqua;
+}
+.col:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.Milieu{
+    justify-content: center;
+    margin: 0 0 0 .25%;
+    width: 53%;
+    height: auto;
+}
+.nav_Milieu{
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 2%;
+}
+.nav_cote{
+    width: 25%;
+    font-size: 2rem;
+}
+.trait{
+    width: 95%;
+    border-top: 1px solid grey;
+    margin-left: 2.5%;
+}
+input{
+    width: 30%;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(240, 237, 237);
+}
+.trie{
+    font-weight: bold;
+    font-size: 1rem;
+    width: 6%;
+    height: 4%;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1%;
+    left: 93%;
+}
+.Ajout{
+    border-radius: 20px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: 1.7rem;
+    width: 95%;
+    height: 8%;
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 22px -21px rgba(66, 68, 90, 1);
+}
+.text{
+    justify-content: space-around;
+    width: 40%;
+}
+.taches{
+    overflow: scroll;
+    width: 100%;
+    height: 72.8%;
+    margin-top: 2%;
+}
+.tache{
+    color: #5b5b5b;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: 1.5rem;
+    width: 95%;
+    height: 15%;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 8px 8px 22px -21px rgba(66, 68, 90, 1);
+}
+.objet{
+    width: 100%;
+    /* justify-content: space-around; */
+}
+.task{
+    width: 40%;
+    justify-content: space-around;
+}
+.tache:hover{
+    background: rgb(87,87,101);
+    background: linear-gradient(90deg, rgba(87,87,101,1) 10%, rgba(30,100,113,1) 100%);
+    color: white;
+}
+.droite{
+    width: 27%;
+    height: auto;
+    background: rgb(87,87,101);
+    background: linear-gradient(90deg, rgba(87,87,101,1) 10%, rgba(30,100,113,1) 100%);
+}
+.plans{
+    font-size: 2rem;
+    width: 80%;
+    height: 8%;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.plan{
+    color: white;
+    width: 60%;
+    justify-content: space-between;
+}
+.plans:hover{
+    background-color: rgba(19, 27, 33, 0.3);
+}
+textarea{
+    color: white;
+    width: 90%;
+    height: 4rem;
+    margin-left: 2.5%;
+    font-size: 1.5rem;
+    border: none;
+    background: linear-gradient(90deg, rgba(87,87,101,1) 10%, rgba(30,100,113,1) 100%);
+    border-bottom: 2px solid #19415e;
+}
+.zone_hov:hover{
+    color: black;
+}
+.Zone_saisie{
+    margin-top: 10%;
+}
+.bloc_ajout{
+    justify-content: space-between;
+}
+.bloc{
+    width: 13%;justify-content: space-between;
+}
