@@ -120,6 +120,7 @@ input{
     border: none;
     border-radius: 30px;
     background-color: rgb(240, 237, 237);
+    display: none;
 }
 .trie{
     font-weight: bold;
@@ -225,6 +226,7 @@ textarea{
 .bloc_ajout{
     margin-top: .2%;
     justify-content: space-between;
+    display: none;
 }
 .bloc{
     width: 13%;justify-content: space-between;
@@ -232,4 +234,11 @@ textarea{
 .gestion_ajout{
     width: 100%;
     height: auto;
+}
+.champ_dajout,#champ_dajout_titre{
+    height: 30%;
+    width: 30%;
+    font-size: .8em;
+    background-color: #2B5878;
+    color: white;
 }
